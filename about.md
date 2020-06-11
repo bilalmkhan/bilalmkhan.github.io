@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Hi, my name is Bilal. I am data scientist. I work mostly in Python, R, SQL, and Spark.
+Hi, my name is Bilal. I am a data scientist. I work mostly in Python, R, SQL, and Spark.
 
 Prior to becoming a data scientist I worked as an Assistant Professor at [LUMS] (https://www.lums.edu.pk/) for a few years where I taught game theory and mathematical methods in economics.
 
