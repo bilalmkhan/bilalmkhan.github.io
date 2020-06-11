@@ -3,6 +3,4 @@ layout: post
 title: Hello, World!
 ---
 
-Hello, world.
-
-I will be blogging about data science here. Stay tuned!
+I will be blogging here about data science and sharing fun, side data projects. Stay tuned.
