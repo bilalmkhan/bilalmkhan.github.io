@@ -6,7 +6,7 @@ permalink: /about/
 
 Hi, my name is Bilal. I am a data scientist. I work mostly in Python, R, SQL, and Spark.
 
-Prior to becoming a data scientist I worked as an Assistant Professor at [LUMS] (https://www.lums.edu.pk/) for a few years where I taught game theory and mathematical methods in economics.
+Prior to becoming a data scientist I worked as an Assistant Professor at [LUMS](https://www.lums.edu.pk/) for a few years where I taught game theory and mathematical methods in economics.
 
 I have been teaching probability and game theory to gifted high school students at the Johns Hopkins Center for Talented Youth for almost a decade.
 
