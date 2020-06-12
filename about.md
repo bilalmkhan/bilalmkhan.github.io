@@ -4,7 +4,7 @@ title: A brief self-introduction
 permalink: /about/
 ---
 
-Hi, my name is Bilal. I am a data scientist. I work mostly in Python, R, SQL, and Spark.
+Hi, my name is Bilal. I work with data. Mostly in Python, R, SQL, and Spark.
 
 Currently, I am a Data Science Fellow at the [Insight Data Science Fellowship Program](https://insightfellows.com/data-science) in Seattle. Previously, I worked as a Data Scientist at Microsoft on contract and used natural language processing and deep learning to classify travel blogs.
 
