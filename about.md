@@ -1,7 +1,7 @@
 ---
 layout: page
 title: A brief self-introduction
-permalink: /hire-me/
+permalink: /about/
 ---
 
 Hi, my name is Bilal. I work with data. Mostly in Python, R, SQL, and Spark.
