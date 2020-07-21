@@ -3,7 +3,7 @@ layout: post
 title: SQL with Jupyter Notebooks
 ---
 
-When you have data stored in a relational database, being able to query a SQL database with Jupyter notebooks will come in handy. For example, you can use Jupyter to import data from a relational database and use Python libraries to create visualisations and build machine learning models. At other times, this can save you the trouble of downloading and installing a separate IDE for a particular relational DBMS.
+When you have data stored in a relational database, being able carry out SQL queries inside Jupyter notebooks comes in handy. For example, you can use Jupyter to import data from a relational database and use Python libraries to carry out data manipulation, create visualisations and build machine learning models. At other times, this can save you the trouble of downloading and installing a separate IDE for a particular relational DBMS.
 
 There are several ways to query a SQL database with Jupyter notebooks. Two popular approaches are: 
 
