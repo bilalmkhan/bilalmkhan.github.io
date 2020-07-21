@@ -23,7 +23,7 @@ studentNames = %sql SELECT name FROM students
 studentNames_df = studentNames.DataFrame()
 ```
 
-You can install the `ipython-sql` by running the following code in your jupyter notebook: 
+You can install the `ipython-sql` library by running the following code in your jupyter notebook: 
 ```
 !pip install ipython-sql
 ```
