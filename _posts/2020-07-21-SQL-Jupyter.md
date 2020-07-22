@@ -18,13 +18,13 @@ However, the output of your SQL queries will be a plain list of tuples. You can 
 
 Using `ipython-sql` magic functions in Jupyter notebooks has two main benefits. First, code syntax for carrying out SQL queries using the `ipython-sql` magic functions is much more straightforward concise. Second, it returns the query results as a well-formatted table with headers. Moreover, the query results can be easily converted into Pandas dataframe. Here is a simple example:
 
-```
+```python
 studentNames = %sql SELECT name FROM students
 studentNames_df = studentNames.DataFrame()
 ```
 
 You can install the `ipython-sql` library by running the following code in your jupyter notebook: 
-```
+```python
 !pip install ipython-sql
 ```
 [Here](https://github.com/bilalmkhan/Practice-SQL-with-SQLite-and-Jupyter-Notebook) is a comprehensive tutorial on how to use the `ipython-sql` magic functions in Jupyter.
