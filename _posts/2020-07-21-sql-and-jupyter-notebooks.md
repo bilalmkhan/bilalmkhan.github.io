@@ -8,7 +8,7 @@ When you have data stored in a relational database, being able carry out SQL que
 There are several ways to query a SQL database with Jupyter notebooks. Two popular approaches are: 
 
 ### 1. Python SQL Libraries
-Python SQL libraries exist for all popular DBMS such as SQLite (`sqlite3`), MySQL (`mysql`), PostgreSQL (`psycopg2`), etc.  
+Python SQL libraries exist for all popular DBMS such as SQLite (`sqlite3`), MySQL (`pymysql`), PostgreSQL (`psycopg2`), etc.  
 You can use these Python libraries to *connect* with the database, *create* tables, *insert* records, *query* data, *delete* and *update* tables. [This blog post](https://realpython.com/python-sql-libraries/) gives a very good introduction to carrying out these tasks with Python. 
 
 However, the output of your SQL queries will be a plain list of tuples. You can convert the query results into a Pandas dataframe through the Pandas `read_sql_query` function as shown [here](https://www.dataquest.io/blog/python-pandas-databases/). This allows you to carry out data manipulation using Pandas built-in functions, visualize data using the `matplotlib` library, and build machine learning models using the `scikit-learn` or `tensorflow` libraries. 
