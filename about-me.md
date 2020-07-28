@@ -4,7 +4,7 @@ title: A brief self-introduction
 permalink: /about-me/
 ---
 
-Hi, my name is Bilal. I work with data - mostly in Python, SQL, Tableau and Spark. I have more than three years of industry experience working in data analytics. I currently live in Toronto, Ontario.
+Hi, my name is Bilal. I work with data - mostly in Python, SQL, Tableau. I have more than three years of industry experience working in data analytics. I currently live in Toronto, Ontario.
 
 Currently, I am a Data Science Fellow at the [Insight Data Science Fellowship Program](https://insightfellows.com/data-science). Prior to moving to Canada, I worked as a Data Scientist at Microsoft in Seattle. While in Seattle, I was also a part-time adjunct college instructor teaching the course 'Programming for Machine Learning' at [Bellevue College](https://www.bellevuecollege.edu/).
 
