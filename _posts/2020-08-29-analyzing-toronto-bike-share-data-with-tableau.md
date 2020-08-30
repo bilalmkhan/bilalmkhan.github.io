@@ -5,7 +5,7 @@ title: Should Toronto Increase the 30-Minute Time Limit on Bike Share Rides? An 
 
 I have become a big fan of Bike Share Toronto after recently moving to the city. The annual membership I purchased allows unlimited 30-minute bike trips for only $99 a year, but you can also purchase a Day Pass for $7 as a casual member. The catch is that if your bike trip exceeds 30 minutes, you get charged extra fees. 
 
-A few days ago, I read [an article in The Star](https://www.thestar.com/opinion/contributors/2020/08/24/bike-share-toronto-is-finally-thriving-and-those-electric-bikes-are-awesome-too.html) about how the bike sharing service is thriving in Toronto. At the end of the article, the writer requested the city to increase the time limit for bike trips to 45 minutes, arguing the 30 minutes time limit "is starting to feel real tight". The request even got the attention of Toronto City Councillor James Pasternak who tweeted that he would be happy to discuss the proposal and bring it to his committee.
+A few days ago, I read [an article](https://www.thestar.com/opinion/contributors/2020/08/24/bike-share-toronto-is-finally-thriving-and-those-electric-bikes-are-awesome-too.html) in The Star about how the bike sharing service is thriving in Toronto. At the end of the article, the writer requested the city to increase the time limit for bike trips to 45 minutes, arguing the 30 minutes time limit "is starting to feel real tight". The request even got the attention of Toronto City Councillor James Pasternak who tweeted that he would be happy to discuss the proposal and bring it to his committee.
 
 
 {::options parse_block_html="false" /}
@@ -18,9 +18,9 @@ A few days ago, I read [an article in The Star](https://www.thestar.com/opinion/
 </div>
 
 
-I was curious to see if other users of Bike Share Toronto were also experiencing difficulty due to the 30-minute limit for bike trips. So I downloaded the Bike Share Toronto Ridership Data from City of Toronto's Open Data Portal and analyzed it using Tableau. (2018 is the most recent year for which the data is available on the website.)
+I was curious to see if other users of Bike Share Toronto were also experiencing difficulty due to the 30-minute limit for bike trips. So I downloaded the Bike Share Toronto Ridership Data from [City of Toronto's Open Data Portal](https://open.toronto.ca/dataset/bike-share-toronto-ridership-data/) and analyzed it using Tableau. (2018 is the most recent year for which the data is available on the website.)
 
-So what does the data say? *Overwhelmingly, the 30-minute time limit on rides is not a binding constraint for regular users of the service.*
+So what does the data say? The data shows, overwhelmingly, that the 30-minute time limit on rides is not a pain point regular users of the service.
 
 Here are my main findings:
 
@@ -48,14 +48,14 @@ https://public.tableau.com/views/BikeShareTorontoPopularStartingStationsforBikeS
 showVizHome=no&:embed=true"
 width="600" height="600"></iframe>
 
-**Third, the data strongly suggests that the 30-minute time limit does not pose a difficulty for regular users of the service.** *The median bike trip duration is only 10 minutes for annual members*. 75 percent of the bike trips by annual members are less than 15 minutes long, and 95 percent of the bike trips by annual members are less than 20 minutes long. 
+**Third, the data strongly suggests that the 30-minute time limit does not pose a difficulty for regular users of the service.** The median bike trip duration for annual members is only 10 minutes. 75 percent of the bike trips by annual members are less than 15 minutes long, and 95 percent of the bike trips by annual members are less than 20 minutes long. 
 
 <iframe src="
 https://public.tableau.com/views/BikeShareTorontoDistributionofTripDurationsforAnnualMembers/DistributionTripDurationsAnnual?:
 showVizHome=no&:embed=true"
 width="600" height="600"></iframe>
 
-**Lastly, casual members often mistake a "Day Pass" to mean a day-long bike rental rather than unlimited 30 minute rides.** The median bike trip duration for casual members is 20 minutes. However, only 75 percent of the bike trips by casual members are within the 30 minute time limit. This means that one out of every four bike trips by casual members is late and incurs extra fees. Online reviews and [Bike Share Toronto's two-star rating on TripAdvisor](https://www.tripadvisor.ca/Attraction_Review-g155019-d7071915-Reviews-Bike_Share_Toronto-Toronto_Ontario.html) and [GooglePlay](https://play.google.com/store/apps/details?id=com.altairapps.bikesharetoronto&hl=en) suggest that this is primarily because casual members do not understand the 30-minute time limit. We  can see from the data that even if the time limit were increased to 45 minutes, 15 percent of bike trips by casual members would still be late and get charged extra fees.
+**Lastly, casual members often mistake a "Day Pass" to mean a day-long bike rental rather than unlimited 30 minute rides.** The median bike trip duration for casual members is 20 minutes. However, only 75 percent of the bike trips by casual members are within the 30 minute time limit. This means that one out of every four bike trips by casual members is late and incurs extra fees. Online reviews and Bike Share Toronto's [two-star rating on TripAdvisor](https://www.tripadvisor.ca/Attraction_Review-g155019-d7071915-Reviews-Bike_Share_Toronto-Toronto_Ontario.html) and [GooglePlay](https://play.google.com/store/apps/details?id=com.altairapps.bikesharetoronto&hl=en) suggest that this is primarily because casual members do not understand the 30-minute time limit. We  can see from the data that even if the time limit were increased to 45 minutes, 15 percent of bike trips by casual members would still be late and get charged extra fees.
 
 <iframe src="
 https://public.tableau.com/views/BikeShareTorontoDistributionofTripDurationsforCasualMembers/DistributionofTripDurationsCasual?:
