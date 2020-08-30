@@ -15,7 +15,7 @@ In my spare time, I enjoy reading fiction and keeping up with the English Premie
 
 ## Projects
 
-#### Analyzing Bike Share Toronto Ridership Data with Tableau
+#### [Analyzing Bike Share Toronto Ridership Data with Tableau](https://bilalmkhan.github.io/analyzing-toronto-bike-share-data-with-tableau/)
 Should Bike Share Toronto increase the 30-minute time limit on bikeshare rides? How does user behavior differ with the type of membership?
 [[Blog Post]](https://bilalmkhan.github.io/analyzing-toronto-bike-share-data-with-tableau/) [[Tableau Public]](https://public.tableau.com/profile/khanbilalma#!/vizhome/BikeShareTorontoDifferencesinUserBehaviorByMembershipType/RidershipByUserType)
 
