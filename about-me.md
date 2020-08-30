@@ -1,6 +1,6 @@
 ---
 layout: page
-title: A brief self-introduction
+title: About Me
 permalink: /about-me/
 ---
 
