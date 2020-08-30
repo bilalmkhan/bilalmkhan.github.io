@@ -20,7 +20,9 @@ A few days ago, I read [an article](https://www.thestar.com/opinion/contributors
 
 I was curious to see if other users of Bike Share Toronto were also experiencing difficulty due to the 30-minute limit for bike trips. So I downloaded the Bike Share Toronto Ridership Data from [City of Toronto's Open Data Portal](https://open.toronto.ca/dataset/bike-share-toronto-ridership-data/) and analyzed it using Tableau. (2018 is the most recent year for which the data is available on the website.)
 
-So what does the data say? The data shows, overwhelmingly, that the 30-minute time limit on rides is not a pain point regular users of the service.
+So what does the data say? 
+
+*The data shows, overwhelmingly, that the 30-minute time limit on rides is not a pain point for regular users of the service.*
 
 Here are my main findings:
 
