@@ -5,7 +5,7 @@ title: Should Toronto Increase the 30 Minutes Time Limit On Bike Share Rides? An
 
 <iframe src="
 https://public.tableau.com/views/BikeShareTorontoDistributionofTripDurationsforAnnualMembers/DistributionTripDurationsAnnual?:showVizHome=no&:embed=true"
-width="600" height="800"></iframe>
+width="600" height="600"></iframe>
 
 
 
