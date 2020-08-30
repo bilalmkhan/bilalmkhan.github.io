@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Me
+title: A brief self-introduction
 permalink: /about-me/
 ---
 
@@ -12,6 +12,13 @@ I have a graduate degree in quantitative economics. I have taught mathematical e
 
 In my spare time, I enjoy reading fiction and keeping up with the English Premier League.
 
-## Contact Me
+
+## Projects
+
+#### Analyzing Bike Share Toronto Ridership Data with Tableau
+Should Bike Share Toronto increase the 30-minute time limit on bikeshare rides? How does user behavior differ with the type of membership?
+[[Blog Post]](https://bilalmkhan.github.io/analyzing-toronto-bike-share-data-with-tableau/) [[Tableau Public]](https://public.tableau.com/profile/khanbilalma#!/vizhome/BikeShareTorontoDifferencesinUserBehaviorByMembershipType/RidershipByUserType)
+
+## Contact
 
 khanbilalma at gmail dot com
