@@ -12,6 +12,6 @@ I have a graduate degree in quantitative economics. I have taught mathematical e
 
 In my spare time, I enjoy reading fiction and keeping up with the English Premier League.
 
-### Contact me
+## Contact Me
 
 khanbilalma at gmail dot com
