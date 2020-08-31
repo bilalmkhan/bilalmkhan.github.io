@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Should Toronto Increase the 30-Minute Time Limit on Bike Share Rides?<br/> An analysis of Bike Share Toronto 2018 Data Using Tableau
+title: Should Toronto Increase the 30-Minute Time Limit on Bike Share Rides?
+subtitle: An analysis of Bike Share Toronto 2018 Data Using Tableau
 ---
 
 I have become a big fan of Bike Share Toronto after recently moving to the city. The annual membership I purchased allows unlimited 30-minute bike trips for only $99 a year, but you can also purchase a Day Pass for $7 as a casual member. The catch is that if your bike trip exceeds 30 minutes, you get charged extra fees. 
