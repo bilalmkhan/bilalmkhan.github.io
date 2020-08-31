@@ -1,6 +1,7 @@
 ---
 layout: post
 title: SQL and Jupyter Notebooks
+subtitle: How to query a SQL database from within a Jupyter notebook
 ---
 
 When you have data stored in a relational database, being able carry out SQL queries inside Jupyter notebooks comes in handy. For example, you can use Jupyter to import data from a relational database and use Python libraries to carry out data manipulation, create visualisations and build machine learning models. At other times, this can save you the trouble of downloading and installing a separate IDE for a particular relational DBMS.
@@ -18,15 +19,15 @@ However, the output of your SQL queries will be a plain list of tuples. You can 
 
 Using `ipython-sql` magic functions in Jupyter notebooks has two main benefits. First, code syntax for carrying out SQL queries using the `ipython-sql` magic functions is much more straightforward concise. Second, it returns the query results as a well-formatted table with headers. Moreover, the query results can be easily converted into Pandas dataframe. Below is a simple example of how to accomplish this:
 
-``python
+```python
 studentNames = %sql SELECT name FROM students
 studentNames_df = studentNames.DataFrame()
-``
+```
 
 You can install the `ipython-sql` library by running the following code in your jupyter notebook: 
-``python
+```python
 !pip install ipython-sql
-``
+```
 [Here](https://github.com/bilalmkhan/Practice-SQL-with-SQLite-and-Jupyter-Notebook) is a comprehensive tutorial on how to use the `ipython-sql` magic functions in Jupyter.
 
 
