@@ -20,7 +20,7 @@ Should Bike Share Toronto increase the 30-minute time limit on bikeshare rides? 
 
 #### [Measuring Workplace Satisfaction from a Large Employee Text Survey](https://github.com/bilalmkhan/insight-project)
 I used text classification in Python to help a client measure employee job satisfaction from a large open ended text survey.
-[[Github]](https://github.com/bilalmkhan/insight-project)[[Tableau Public]](https://public.tableau.com/profile/khanbilalma#!/vizhome/Insight_FInal/Dashboard)
+[[Github]](https://github.com/bilalmkhan/insight-project) [[Tableau Public]](https://public.tableau.com/profile/khanbilalma#!/vizhome/Insight_FInal/Dashboard)
 
 ## Contact
 
