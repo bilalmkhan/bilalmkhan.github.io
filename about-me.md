@@ -15,7 +15,7 @@ In my spare time, I enjoy reading fiction and keeping up with the English Premie
 ## Projects
 
 #### [Analyzing Bike Share Toronto Ridership Data with Tableau](https://bilalmkhan.github.io/analyzing-toronto-bike-share-data-with-tableau/)
-I analyze the 2018 Bike Share Toronto ridership data using Tableau to explore whether Toronto should increase the 30-minute time limit on bikeshare rides.<br/>
+I analyzed the 2018 Bike Share Toronto ridership data using Tableau to explore whether Toronto should increase the 30-minute time limit on bikeshare rides.<br/>
 [[Blog Post]](https://bilalmkhan.github.io/analyzing-toronto-bike-share-data-with-tableau/) [[Tableau Public]](https://public.tableau.com/profile/khanbilalma#!/vizhome/BikeShareTorontoShouldTorontoIncreasethe30-MinuteTimeLimitonBikeShareRides/RidershipByUserType)
 
 #### [Measuring Workplace Satisfaction from a Large Employee Text Survey](https://github.com/bilalmkhan/insight-project)
