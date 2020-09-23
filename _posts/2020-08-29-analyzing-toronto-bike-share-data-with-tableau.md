@@ -23,7 +23,7 @@ I was curious to see if other users of Bike Share Toronto were also experiencing
 
 So what does the data say? 
 
-*The data shows, overwhelmingly, that the 30-minute time limit on rides is not a pain point for regular users of the service.*
+*The data shows, overwhelmingly, that regular users of the service do not struggle in returning their bikes within the 30-minute time limit.*
 
 Here are my main findings with accompanying data visualizations:
 
@@ -51,7 +51,7 @@ https://public.tableau.com/views/BikeShareTorontoPopularStartingStationsforBikeS
 showVizHome=no&:embed=true"
 width="450" height="600" scrolling="yes"></iframe>
 
-**Third, the data strongly suggests that the 30-minute time limit does not pose a difficulty for regular users of the service.** The median bike trip duration for annual members is only 10 minutes. 75 percent of the bike trips by annual members are less than 15 minutes long, and 95 percent of the bike trips by annual members are less than 20 minutes long. 
+**Third, the data strongly suggests that the regular users of the service do not struggle in returning their bikes within the 30-minute time limit.** The median bike trip duration for annual members is only 10 minutes. 75 percent of the bike trips by annual members are less than 15 minutes long, and 95 percent of the bike trips by annual members are less than 20 minutes long. 
 
 <iframe seamless frameborder="0" src="
 https://public.tableau.com/views/BikeShareTorontoDistributionofTripDurationsforAnnualMembers/DistributionTripDurationsAnnual?:
