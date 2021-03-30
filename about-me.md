@@ -24,4 +24,4 @@ I used text classification in Python to help a client measure employee job satis
 
 ## Contact
 
-khanbilalma at gmail dot com
+bilal.mh.khan@gmail.com
