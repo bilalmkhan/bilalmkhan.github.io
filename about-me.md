@@ -7,7 +7,7 @@ Hi, my name is Bilal. I am a Google Cloud Certified Professional Data Engineer. 
 
 Most recently, I was a Data Science Fellow at the [Insight Data Science Fellowship Program](https://insightfellows.com/data-science). Prior to moving to Canada, I worked as a Data Scientist at Microsoft in Seattle. 
 
-I have a graduate degree in quantitative economics. I have taught mathematical economics at [LUMS](https://www.lums.edu.pk/) and  probability and game theory at the [Johns Hopkins Center for Talented Youth](https://cty.jhu.edu/).
+I have a PhD in economics. I have taught mathematical economics at [LUMS](https://www.lums.edu.pk/) and  probability and game theory at the [Johns Hopkins Center for Talented Youth](https://cty.jhu.edu/).
 
 In my spare time, I enjoy reading fiction and keeping up with the English Premier League.
 
