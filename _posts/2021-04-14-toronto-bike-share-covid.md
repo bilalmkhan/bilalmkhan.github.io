@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How the Pandemic Affected Bike Share Toronto Ridership
-subtitle: An analysis of Bike Share Toronto 2019 and 2020 ridership data using BigQuery and Data Studio
+subtitle: An analysis of Bike Share Toronto 2019 and 2020 ridership data using BigQuery and Google Data Studio
 ---
 
 
