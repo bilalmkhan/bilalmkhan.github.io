@@ -20,13 +20,13 @@ While the number of bike-share trips for Annual Members remained unchanged, the 
 
 **Second, the number of people using BikeshareTO for commuting to work dropped significantly in 2020.**
 
+This finding is not surprising given that many businesses were closed due to the shutdown and stay-at-home orders resulting from the pandemic.
+
 We can infer this from two data points: One, there is a drastic fall in bikeshare trips during the 8 AM morning rush hour among Annual Members as well as a smaller fall in the number of trips during the evening 5 PM rush hour. The fall of ridership during the evening rush hour is less pronounced because both Annual Members and Casual Members increased their use of BikeShareTO during the evenings for recreational purposes.
 
 <iframe width="600" height="450" src="https://datastudio.google.com/embed/reporting/ddceadbc-02e2-49a9-9766-fbf96b84c615/page/fGtCC" frameborder="0" style="border:0" allowfullscreen></iframe>
 
-Two, for Annual Members, there is a large decrease in the number of "popular" stations - that is, bikeshare stations that served as starting points for more than 10,000 trips.  On the other hand, the number of popular stations increased significantly for Casual Members along the Martin Goodman trail on Toronto's scenic lakefront reflecting the surge in demand for recreational use.
-
-This finding is not surprising given that many businesses were closed due to the shutdown and stay-at-home orders resulting from the pandemic.
+Two, for Annual Members, there is a large decrease in the number of "popular" stations - that is, bikeshare stations that served as starting points for more than 10,000 trips. Since people who use bike-share for commuting have Annual Memberships, this suggests that the number of bike trips made for commuting decreased significantly. On the other hand, the number of popular stations increased for Casual Members along the Martin Goodman trail on Toronto's scenic lakefront reflecting the surge in demand for recreational use.
 
 ![Map of Popullar Bikeshare Starting Stations](/images/Popular_BikeShare_Stations_2019_2020.png)
 
