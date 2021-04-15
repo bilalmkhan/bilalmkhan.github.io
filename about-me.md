@@ -3,7 +3,7 @@ layout: page
 permalink: /about-me/
 ---
 
-Hi, my name is Bilal. I am a Google Cloud Certified Professional Data Engineer. I have more than three years of industry experience working in data analytics. I live in Toronto, Ontario.
+Hi, my name is Bilal. I am a [Google Cloud Certified Professional Data Engineer](https://googlecloudcertified.credential.net/profile/2655b7c60bfa2929c649b958843d73de46a50e6c). I live in Toronto, Ontario.
 
 Most recently, I was a Data Science Fellow at the [Insight Data Science Fellowship Program](https://insightfellows.com/data-science). Prior to moving to Canada, I worked as a Data Scientist on contract at Microsoft in Seattle. 
 
