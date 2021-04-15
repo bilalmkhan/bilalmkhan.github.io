@@ -13,7 +13,7 @@ Here are my three main findings along with accompanying data visualizations.
 
 **First, there were half a million more bike-share trips in 2020 compared to 2019 which a 10 percent increase. However, all of the increase in bike-share trips came from Casual Members who are short-term, recreational users of the service.**
 
-While the number of bike-share trips for Annual Members remained unchanged, the number of trips by short-term users almost doubled to from 580K in 2019 to 1 million in 2020. This was probably helped by Toronto's [ActiveTO] https://www.toronto.ca/home/covid-19/covid-19-protect-yourself-others/covid-19-reduce-virus-spread/covid-19-activeto/ initiative.
+While the number of bike-share trips for Annual Members remained unchanged, the number of trips by short-term users almost doubled to from 580K in 2019 to 1 million in 2020. This was probably helped by Toronto's (ActiveTO) [https://www.toronto.ca/home/covid-19/covid-19-protect-yourself-others/covid-19-reduce-virus-spread/covid-19-activeto/ initiative.]
 
 <iframe width="600" height="450" src="https://datastudio.google.com/embed/reporting/ddceadbc-02e2-49a9-9766-fbf96b84c615/page/XkoCC" frameborder="0" style="border:0" allowfullscreen></iframe>
 
