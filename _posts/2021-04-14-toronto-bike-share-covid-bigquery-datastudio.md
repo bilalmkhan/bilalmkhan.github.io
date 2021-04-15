@@ -26,6 +26,8 @@ We can infer this from two data points: One, there is a drastic fall in bikeshar
 
 Two, there is a large decrease in the number of "popular" stations - that is, bikeshare stations that served as starting points for more than 10,000 trips - among Annual members. (Please [click here](https://datastudio.google.com/reporting/ddceadbc-02e2-49a9-9766-fbf96b84c615) to see the map since Data Studio currently does not enable embedding map charts in visualizations.) On the other hand, the number of popular stations increased significantly along the scenic Martin Goodman trail on Toronto's lakefront reflecting the surge in demand for recreational use.
 
+![Map of Popullar Bikeshare Starting Stations](images/Popular_BikeShare_Stations_2019_2020.png)
+
 This finding is not surprising given that many businesses were closed due to the shutdown and stay-at-home orders resulting from the pandemic.
 
 
