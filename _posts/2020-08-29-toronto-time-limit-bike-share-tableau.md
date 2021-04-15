@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Should Toronto Increase the 30-Minute Time Limit on Bike Share Rides?
+title: Should Toronto Increase the 30-Minute Time Limit on Bike Share Rides? 
 subtitle: An analysis of Bike Share Toronto 2018 ridership data using Tableau
 ---
 
