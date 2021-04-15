@@ -13,14 +13,14 @@ Here are my three main findings along with accompanying data visualizations.
 
 **First, there were half a million more bike-share trips in 2020 compared to 2019 which is a 10 percent increase. Nearly all of the increase in bike-share trips came from Casual Members who are short-term, recreational users of the service.**
 
-While the number of bike-share trips for Annual Members remained unchanged, the number of trips by short-term users almost doubled from 580K in 2019 to 1 million in 2020. This increase in demand for short-term, recreational use of BikeShareTO was probably driven by people using cycling to exercise and get some fresh air during the lockdown and helped by Toronto's [ActiveTO](https://www.toronto.ca/home/covid-19/covid-19-protect-yourself-others/covid-19-reduce-virus-spread/covid-19-activeto/) initiative
+While the number of bike-share trips for Annual Members remained unchanged, the number of trips by short-term users almost doubled from 580K in 2019 to 1 million in 2020. This increase in demand for short-term, recreational use of BikeShareTO was probably driven by people using cycling to exercise and get some fresh air during the lockdown, and helped by Toronto's [ActiveTO](https://www.toronto.ca/home/covid-19/covid-19-protect-yourself-others/covid-19-reduce-virus-spread/covid-19-activeto/) initiative.
 
 <iframe width="600" height="450" src="https://datastudio.google.com/embed/reporting/ddceadbc-02e2-49a9-9766-fbf96b84c615/page/XkoCC" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 
 **Second, the number of people using BikeshareTO for commuting to work dropped significantly in 2020.**
 
-We can infer this from two data points: One, there is a drastic fall in bikeshare trips during the 8 AM morning rush hour among Annual Members as well as a smaller fall in the number of trips during the evening 5 PM rush hour. The fall of ridership during the evening rush hour is less drastic because, as the graphs below suggest, both Annual Members and Casual Members increased their use of BikeShareTO during the evenings for recreation purposes.
+We can infer this from two data points: One, there is a drastic fall in bikeshare trips during the 8 AM morning rush hour among Annual Members as well as a smaller fall in the number of trips during the evening 5 PM rush hour. The fall of ridership during the evening rush hour is less drastic because both Annual Members and Casual Members increased their use of BikeShareTO during the evenings for recreation purposes
 
 <iframe width="600" height="450" src="https://datastudio.google.com/embed/reporting/ddceadbc-02e2-49a9-9766-fbf96b84c615/page/fGtCC" frameborder="0" style="border:0" allowfullscreen></iframe>
 
@@ -33,11 +33,9 @@ This finding is not surprising given that many businesses were closed due to the
 (Please [click here](https://datastudio.google.com/reporting/ddceadbc-02e2-49a9-9766-fbf96b84c615) for an interactive map since Data Studio currently does not currently enable embedding map visualizations in blog posts.)
 
 
+**Third, significantly more Annual Members used BikeShare for short-term, recreational purposes in 2020 compared to 2019.**
 
-
-**Third, significantly more Annual Members used BikeShare for short-term recreation purposes in 2020 compared to 2019.**
-
-From the chart below, we see that the number of bike trips by Annual Members on weekends increased significantly even though it fell for all weekdays. On the other hand, ridership by Casual Members for recreational purposes nearly doubled for every day of the week.
+From the chart below, we see that the number of bike trips by Annual Members on weekends increased significantly even though it fell for all weekdays showing increased demand for short-term, recreational use of the service. On the other hand, ridership by Casual Members for recreational purposes nearly doubled for every day of the week.
 
 <iframe width="600" height="450" src="https://datastudio.google.com/embed/reporting/ddceadbc-02e2-49a9-9766-fbf96b84c615/page/cHtCC" frameborder="0" style="border:0" allowfullscreen></iframe>
 
