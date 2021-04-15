@@ -9,7 +9,7 @@ Most recently, I was a Data Science Fellow at the [Insight Data Science Fellowsh
 
 I have a PhD in economics. I have taught mathematical economics at [LUMS](https://www.lums.edu.pk/) and  probability and game theory at the [Johns Hopkins Center for Talented Youth](https://cty.jhu.edu/).
 
-In my spare time, I enjoy reading nonfiction, exploring Toronto using [BikeShareTO](https://bikesharetoronto.com/) and keeping up with the English Premier League.
+In my spare time, I enjoy reading nonfiction, exploring Toronto using [BikeShareTO](https://bikesharetoronto.com/), and keeping up with the English Premier League.
 
 
 ## Projects
