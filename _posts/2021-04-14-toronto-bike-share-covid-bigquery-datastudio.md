@@ -30,7 +30,7 @@ This finding is not surprising given that many businesses were closed due to the
 
 ![Map of Popullar Bikeshare Starting Stations](/images/Popular_BikeShare_Stations_2019_2020.png)
 
-(Please [click here](https://datastudio.google.com/reporting/ddceadbc-02e2-49a9-9766-fbf96b84c615) for an interactive map since Data Studio currently does not currently enable embedding map charts in visualizations.)
+(Please [click here](https://datastudio.google.com/reporting/ddceadbc-02e2-49a9-9766-fbf96b84c615) for an interactive map since Data Studio currently does not currently enable embedding map visualizations in blog posts.)
 
 
 
