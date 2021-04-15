@@ -4,16 +4,16 @@ title: How the Pandemic Affected Bike Share Toronto Ridership
 subtitle: An analysis of Bike Share Toronto 2019 and 2020 ridership data using BigQuery and Google Data Studio
 ---
 
-Bike Share Toronto ([BikeShareTO](https://bikesharetoronto.com/)) is Toronto's [bicycle-sharing system](https://en.wikipedia.org/wiki/Bicycle-sharing_system). BikeShareTO recently shared their ridership data for the years 2019 and 2020. As an avid BikeShareTo user, I was curious to see how the pandemic has affected the bike-sharing system's patterns of ridership which I explored in an earlier [blog post](https://bilalmkhan.github.io/toronto-time-limit-bike-share-tableau/) for their 2018 data. *From the data, we find that the pandemic led to significant changes in how Torontonians use the BikeShareTO service*.
+Bike Share Toronto ([BikeShareTO](https://bikesharetoronto.com/)) is Toronto's [bicycle-sharing system](https://en.wikipedia.org/wiki/Bicycle-sharing_system). BikeShareTO recently shared their ridership data for the years 2019 and 2020. As an avid BikeShareTO user, I was curious to see how the pandemic has affected the bike-sharing system's patterns of ridership, which I explored in an earlier [blog post](https://bilalmkhan.github.io/toronto-time-limit-bike-share-tableau/). *From the data, we find that the pandemic led to significant changes in how Torontonians use the BikeShareTO service*.
 
-For those unfamiliar with how BikeShareTO works, BikeShareTO's bicycle-sharing system consists of 6850 bicylces and 650 stations across the city. Users can borrow a bike from any station and return it to any station as long as the bike trip is less than 30 minutes. (Trips longer than 30 minutes incur a fine.) Users can purchase an Annual Membership that allows them unlimited 30-minute bike trips for a year, or they can purchase short-term passes varying from 30 minutes to 3 weeks as a Casual Member.
+For those unfamiliar with how BikeShareTO works, the bicycle-sharing system consists of 6850 bicylces and 650 stations across the city. Users can borrow a bike from any station and return it to any station as long as the bike trip is less than 30 minutes. (Trips longer than 30 minutes incur a fine.) Users can purchase an Annual Membership that allows them unlimited 30-minute bike trips for a year, or they can purchase short-term passes varying from 30 minutes to 3 weeks as a Casual Member.
 
 
 Here are my three main findings along with accompanying data visualizations.
 
-**First, there were half a million more bike-share trips in 2020 compared to 2019 which a 10 percent increase. However, all of the increase in bike-share trips came from Casual Members who are short-term, recreational users of the service.**
+**First, there were half a million more bike-share trips in 2020 compared to 2019 - a 10 percent increase. All of the increase in bike-share trips came from Casual Members who are short-term, recreational users of the service.**
 
-While the number of bike-share trips for Annual Members remained unchanged, the number of trips by short-term users almost doubled to from 580K in 2019 to 1 million in 2020. This was probably helped by Toronto's (ActiveTO) [https://www.toronto.ca/home/covid-19/covid-19-protect-yourself-others/covid-19-reduce-virus-spread/covid-19-activeto/ initiative.]
+While the number of bike-share trips for Annual Members remained unchanged, the number of trips by short-term users almost doubled from 580K in 2019 to 1 million in 2020. This was probably helped by Toronto's [ActiveTO](https://www.toronto.ca/home/covid-19/covid-19-protect-yourself-others/covid-19-reduce-virus-spread/covid-19-activeto/) initiative.
 
 <iframe width="600" height="450" src="https://datastudio.google.com/embed/reporting/ddceadbc-02e2-49a9-9766-fbf96b84c615/page/XkoCC" frameborder="0" style="border:0" allowfullscreen></iframe>
 
