@@ -9,10 +9,15 @@ Most recently, I was a Data Science Fellow at the [Insight Data Science Fellowsh
 
 I have a PhD in economics. I have taught mathematical economics at [LUMS](https://www.lums.edu.pk/) and  probability and game theory at the [Johns Hopkins Center for Talented Youth](https://cty.jhu.edu/).
 
-In my spare time, I enjoy reading fiction and keeping up with the English Premier League.
+In my spare time, I enjoy reading nonfiction, exploring Toronto using [BikeShareTO](https://bikesharetoronto.com/) and keeping up with the English Premier League.
 
 
 ## Projects
+
+
+#### [Using BigQuery and Google Data Studio to Analyze How the Pandemic Affected Toronto Bike Share](https://bilalmkhan.github.io/toronto-bike-share-covid-bigquery-datastudio/)
+I used Google Data Studio with BigQuery as data source to compare Bike Share Toronto ridership patterns between 2019 and 2020, showing how the pandemic has affected bikeshare usage in Toronto.
+
 
 #### [Analyzing Bike Share Toronto Ridership Data with Tableau](https://bilalmkhan.github.io/analyzing-toronto-bike-share-data-with-tableau/)
 I analyzed the 2018 Bike Share Toronto ridership data using Tableau to explore whether Toronto should increase the 30-minute time limit on bikeshare rides.<br/>
