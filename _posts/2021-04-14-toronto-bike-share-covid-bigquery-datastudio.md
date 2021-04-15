@@ -13,7 +13,7 @@ Here are my three main findings along with accompanying data visualizations.
 
 **First, there were half a million more bike-share trips in 2020 compared to 2019 which is a 10 percent increase. Nearly all of the increase in bike-share trips came from Casual Members who are short-term, recreational users of the service.**
 
-While the number of bike-share trips for Annual Members remained unchanged, the number of trips by short-term users almost doubled from 580K in 2019 to 1 million in 2020. This was probably helped by Toronto's [ActiveTO](https://www.toronto.ca/home/covid-19/covid-19-protect-yourself-others/covid-19-reduce-virus-spread/covid-19-activeto/) initiative.
+While the number of bike-share trips for Annual Members remained unchanged, the number of trips by short-term users almost doubled from 580K in 2019 to 1 million in 2020. This increase in demand for short-term, recreational use of BikeShareTO was probably driven by people using cycling to exercise and get some fresh air during the lockdown and helped by Toronto's [ActiveTO](https://www.toronto.ca/home/covid-19/covid-19-protect-yourself-others/covid-19-reduce-virus-spread/covid-19-activeto/) initiative
 
 <iframe width="600" height="450" src="https://datastudio.google.com/embed/reporting/ddceadbc-02e2-49a9-9766-fbf96b84c615/page/XkoCC" frameborder="0" style="border:0" allowfullscreen></iframe>
 
@@ -22,9 +22,9 @@ While the number of bike-share trips for Annual Members remained unchanged, the 
 
 We can infer this from two data points: One, there is a drastic fall in bikeshare trips during the 8 AM morning rush hour among Annual Members as well as a smaller fall in the number of trips during the evening 5 PM rush hour. The fall of ridership during the evening rush hour is less drastic because, as the graphs below suggest, both Annual Members and Casual Members increased their use of BikeShareTO during the evenings for recreation purposes.
 
-<iframe width="600" height="450" src="https://datastudio.google.com/embed/reporting/ddceadbc-02e2-49a9-9766-fbf96b84c615/page/XkoCC" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe width="600" height="450" src="https://datastudio.google.com/embed/reporting/ddceadbc-02e2-49a9-9766-fbf96b84c615/page/fGtCC" frameborder="0" style="border:0" allowfullscreen></iframe>
 
-Two, there is a large decrease in the number of "popular" stations - that is, bikeshare stations that served as starting points for more than 10,000 trips - among Annual members. (Please [click here](https://datastudio.google.com/reporting/ddceadbc-02e2-49a9-9766-fbf96b84c615) to see the map since Data Studio currently does not enable embedding map charts in visualizations.)
+Two, there is a large decrease in the number of "popular" stations - that is, bikeshare stations that served as starting points for more than 10,000 trips - among Annual members. (Please [click here](https://datastudio.google.com/reporting/ddceadbc-02e2-49a9-9766-fbf96b84c615) to see the map since Data Studio currently does not enable embedding map charts in visualizations.) On the other hand, the number of popular stations increased significantly along the scenic Martin Goodman trail on Toronto's lakefront reflecting the surge in demand for recreational use.
 
 This finding is not surprising given that many businesses were closed due to the shutdown and stay-at-home orders resulting from the pandemic.
 
