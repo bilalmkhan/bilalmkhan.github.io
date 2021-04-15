@@ -24,7 +24,7 @@ I analyzed the 2018 Bike Share Toronto ridership data using Tableau to explore w
 [[Blog Post]](https://bilalmkhan.github.io/analyzing-toronto-bike-share-data-with-tableau/) [[Tableau Public]](https://public.tableau.com/profile/khanbilalma#!/vizhome/BikeShareTorontoShouldTorontoIncreasethe30-MinuteTimeLimitonBikeShareRides/RidershipByUserType)
 
 #### [Measuring Workplace Satisfaction from a Large Employee Text Survey](https://github.com/bilalmkhan/insight-project)
-I used text classification in Python to help a client measure employee job satisfaction from a large open ended text survey.<br/>
+I carried out multi-label, multi-class text classification in Python using deep learning and ELMO embeddings to help a client measure employee job satisfaction from a large open ended text survey and presented the findings in a Tableau dashboard.<br/>
 [[Github]](https://github.com/bilalmkhan/insight-project) [[Tableau Public]](https://public.tableau.com/profile/khanbilalma#!/vizhome/Insight_FInal/Dashboard)
 
 ## Contact
