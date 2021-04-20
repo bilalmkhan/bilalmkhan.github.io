@@ -6,7 +6,7 @@ subtitle: Notes on building an ETL pipeline for loading Bike Share Toronto rider
 
 In my [previous blogpost](https://bilalmkhan.github.io/toronto-bike-share-covid-bigquery-datastudio/), I used Google Data Studio to analyze [BikeShareTO ridership data](https://ckan0.cf.opendata.inter.prod-toronto.ca/tr/dataset/bike-share-toronto-ridership-data) with BigQuery as the data source. In this blogpost, I will demonstrate step-by-step some of the problems you run into when trying to load BikeShareTO ridership data directly into BigQuery from Cloud Storage, and how to solve them by carrying out the ETL process with Apache Beam using Dataflow.
 
-## Download data
+**Download data**
 1. Let’s start by opening a session in Cloud Shell and downloading the 2020 Bike Share Toronto ridership data in a separate folder `'2020'` with the following commands.
 
 ```
@@ -16,7 +16,6 @@ unzip temp.zip -d 2020
 
 rm temp.zip
 ```
-
 
 The first command above downloads the zip file under the name `temp.zip`, the second command unzips it to a folder named `2020`, and the third command deletes the downloaded zip file.
 
@@ -40,30 +39,24 @@ This outputs the following columns names:
 
 `Trip Id,Trip Duration,Start Station Id,Start Time,Start Station Name,End Station Id,End Time,End Station Name,Bike Id,User Type`
 
-## Copy files to a Cloud Storage bucket
+**Copy files to a Cloud Storage bucket**
+
 Next, let’s copy the files to a Cloud Storage bucket. This will allow us batch load multiple files into a BigQuery table with a single command by making use of wildcard support for Cloud Storage URI.
 
 4. First, set a project variable with your project ID and set the project property.
-
 ```
 export PROJECT=my-project-id
 
 gcloud config set project $my-project-id
 ```
-
-
 5. Create a new bucket within your project by using the make bucket `gsutil mb` command.
-
 ```
 gsutil mb -l northamerica-northeast1 gs://my-bucket-name
 ```
-
 6. Use the `gsutil` command to copy files to the Cloud Storage bucket we just created.
-
 ```
 gsutil cp 2020/* gs://my-bucket-name
 ```
-
 7. Check if the files have been successfully copied.
 ```
 gsutil ls gs://my-bucket-name/
@@ -72,22 +65,24 @@ gsutil ls gs://my-bucket-name/
 ```
 rm -r 2020
 ```
-## Create a BigQuery dataset
+**Create a BigQuery dataset**
 9. Before we can load our data to be BigQuery table, we need to create a BigQuery dataset for the table.
 ```
 bq --location=northamerica-northeast1 mk mydataset
 ```
-## Errors while trying to load the data to BigQuery directly from Cloud Storage
+**Errors while trying to load the data to BigQuery directly from Cloud Storage**
 10. Next, let’s try to load the data into a BigQuery table using the `bq load` command and using a wildcard by appending an asterisk (\*) to the base
 ```
 bq load --autodetect --source_format=CSV mydataset.biketrips2020 gs://my-bucket-name/*
 ```
 However, we get an error:
+
 `- gs://my-bucket-name/2020-10.csv: Error while reading
 data, error message: CSV table references column position 9, but
 line starting at position:3401930 contains only 9 columns.`
 
 The error message suggests the load job failed because at least one row has fewer columns than the automatically detected schema dictates.
+
 11. To find the source of these errors, we can inspect the CSV files in the vicinity of the byte locations of the error. To do this, we use the `gsutil cat` command.
 ```
 gsutil cat -r 3401700–3402200 gs://my-bucket-name/2020–10.csv
@@ -128,9 +123,9 @@ mydataset.biketrips2020 \
 gs://my-bucket-name/*
 ```
 This deals with the error due to parsing NULL values. However, we will also include this transformation in our Apache Beam pipeline so that a single pipeline carries out all the necessary transformations.
-## Build a Dataflow Pipeline
+**Build a Dataflow Pipeline**
 13. Next, we code an Apache Beam pipeline which extracts the files, carries out the transformations and loads the data into BigQuery. The python file `etl_pipeline.py` contains the Python code for the pipeline. Three functions carry out the main transformations: `deconcat()`, `replace_nulls()`, `format_datetime_bq()`. We can upload the python file using the Cloud Shell Editor.
-## Set up the Python environment
+**Set up the Python environment**
 14. Run the following commands in the Cloud Shell to set up the virtual environment to run our code:
 ```
 sudo pip install virtualenv 
@@ -138,7 +133,7 @@ virtualenv -p python3 venv
 source venv/bin/activate 
 pip install apache-beam[gcp]==2.24.0
 ```
-## Run the pipeline
+**Run the pipeline**
 15. Running the python file etl_pipeline.py creates a Dataflow job which runs the DataflowRunner. We need specify a Cloud Storage bucket location for staging and storing temporary data while the pipeline is still running, and the Cloud Storage bucket containing our CSV files.
 ```
 python etl_pipeline.py \
