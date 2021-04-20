@@ -16,7 +16,7 @@ In my spare time, I enjoy reading nonfiction, exploring Toronto using [BikeShare
 
 #### [Using Dataflow to Extract, Transform, and Load Bike Share Toronto Ridership Data into BigQuery and Visualizaing with Data Studio]
 I built an Apache Beam Pipeline to extract, transform, and load Bike Share Toronto ridership data into BigQuery, and used Google Data Studio with BigQuery as data source to visualize data showing how the pandemic has affected bikeshare usage in Toronto.
-[[Github]](https://github.com/bilalmkhan/etl-pipeline-beam)[[Blog Post Part 2]][[Blog Post Part 1]](https://bilalmkhan.github.io/toronto-bike-share-covid-bigquery-datastudio/)
+[[Github Code]](https://github.com/bilalmkhan/etl-pipeline-beam)[[Blog Post Part 2]](https://bilalmkhan.github.io/dataflow-etl-toronto-bike-share/)[[Blog Post Part 1]](https://bilalmkhan.github.io/toronto-bike-share-covid-bigquery-datastudio/)
 
 #### [Analyzing Bike Share Toronto Ridership Data with Tableau](https://bilalmkhan.github.io/analyzing-toronto-bike-share-data-with-tableau/)
 I analyzed the 2018 Bike Share Toronto ridership data using Tableau to explore whether Toronto should increase the 30-minute time limit on bikeshare rides.<br/>
@@ -24,7 +24,7 @@ I analyzed the 2018 Bike Share Toronto ridership data using Tableau to explore w
 
 #### [Measuring Workplace Satisfaction from a Large Employee Text Survey](https://github.com/bilalmkhan/insight-project)
 I carried out multi-label, multi-class text classification in Python using deep learning and ELMO embeddings to help a client measure employee job satisfaction from a large open ended text survey and presented the findings in a Tableau dashboard.<br/>
-[[Github]](https://github.com/bilalmkhan/insight-project) [[Tableau Public]](https://public.tableau.com/profile/khanbilalma#!/vizhome/Insight_FInal/Dashboard)
+[[Github Code]](https://github.com/bilalmkhan/insight-project) [[Tableau Public]](https://public.tableau.com/profile/khanbilalma#!/vizhome/Insight_FInal/Dashboard)
 
 ## Contact
 
