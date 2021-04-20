@@ -14,7 +14,7 @@ In my spare time, I enjoy reading nonfiction, exploring Toronto using [BikeShare
 
 ## Projects
 
-#### [Using Dataflow to Extract, Transform, and Load Bike Share Toronto Ridership Data into BigQuery and Visualizaing with Data Studio]
+#### [Using Dataflow to Extract, Transform, and Load Bike Share Toronto Ridership Data into BigQuery and Visualizaing with Data Studio](https://bilalmkhan.github.io/dataflow-etl-toronto-bike-share/)
 I built an Apache Beam Pipeline to extract, transform, and load Bike Share Toronto ridership data into BigQuery, and used Google Data Studio with BigQuery as data source to visualize data showing how the pandemic has affected bikeshare usage in Toronto.
 [[Github Code]](https://github.com/bilalmkhan/etl-pipeline-beam)[[Blog Post Part 2]](https://bilalmkhan.github.io/dataflow-etl-toronto-bike-share/)[[Blog Post Part 1]](https://bilalmkhan.github.io/toronto-bike-share-covid-bigquery-datastudio/)
 
