@@ -7,23 +7,20 @@ subtitle: Notes on building an ETL pipeline for loading Bike Share Toronto rider
 In my [previous blogpost](https://bilalmkhan.github.io/toronto-bike-share-covid-bigquery-datastudio/), I used Google Data Studio to analyze [BikeShareTO ridership data](https://ckan0.cf.opendata.inter.prod-toronto.ca/tr/dataset/bike-share-toronto-ridership-data) with BigQuery as the data source. In this blogpost, I will demonstrate step-by-step some of the problems you run into when trying to load BikeShareTO ridership data directly into BigQuery from Cloud Storage, and how to solve them by carrying out the ETL process with Apache Beam using Dataflow.
 
 ## Download data
-Let’s start by opening a session in Cloud Shell and downloading the 2020 Bike Share Toronto ridership data in a separate folder `'2020'`.
+Let’s start by opening a session in Cloud Shell and downloading the 2020 Bike Share Toronto ridership data in a separate folder `'2020'` with the following commands.
 
-```
-wget https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/7e876c24-177c-4605-9cef-e50dd74c617f/resource/5f5d78c4-d810-4048-9dac-c18273abffac/download/files-1.zip -O temp.zip
+`wget https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/7e876c24-177c-4605-9cef-e50dd74c617f/resource/5f5d78c4-d810-4048-9dac-c18273abffac/download/files-1.zip -O temp.zip`
 
-unzip temp.zip -d 2020
+`unzip temp.zip -d 2020`
 
-rm temp.zip
-```
+`rm temp.zip`
+
 
 The first command above downloads the zip file under the name `temp.zip`, the second command unzips it to a folder named `2020`, and the third command deletes the downloaded zip file.
 
 2. Let’s take a look at the unzipped contents of the file by running the following command.
 
-```
-ls 2020
-```
+`ls 2020`
 
 We see that the ridership data for the year 2020 is divided into twelve CSV files all starting with '2020':
 
@@ -31,9 +28,7 @@ We see that the ridership data for the year 2020 is divided into twelve CSV file
 
 3. We can read the column names by reading the header of the CSV:
 
-```
-head -n 1 2020/2020–01.csv
-```
+`head -n 1 2020/2020–01.csv`
 
 This outputs the following columns names:
 
@@ -43,20 +38,20 @@ This outputs the following columns names:
 Next, let’s copy the files to a Cloud Storage bucket. This will allow us batch load multiple files into a BigQuery table with a single command by making use of wildcard support for Cloud Storage URI.
 
 4. First, set a project variable with your project ID and set the project property.
-```
-export PROJECT=my-project-id
-gcloud config set project $my-project-id
-```
+
+`export PROJECT=my-project-id`
+
+`gcloud config set project $my-project-id`
+
 
 5. Create a new bucket within your project by using the make bucket `gsutil mb` command.
-```
-gsutil mb -l northamerica-northeast1 gs://my-bucket-name
-```
+
+`gsutil mb -l northamerica-northeast1 gs://my-bucket-name`
+
 6. Use the `gsutil` command to copy files to the Cloud Storage bucket we just created.
 
-```
-gsutil cp 2020/* gs://my-bucket-name
-```
+`gsutil cp 2020/* gs://my-bucket-name`
+
 7. Check if the files have been successfully copied.
 ```
 gsutil ls gs://my-bucket-name/
