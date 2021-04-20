@@ -4,7 +4,7 @@ title: Using Dataflow to Extract, Transform, and Load Bike Share Toronto Ridersh
 subtitle: Notes on building an ETL pipeline for loading Bike Share Toronto ridership data into a BigQuery table so that it can be used as the source for Data Studio to create data visualizations.
 ---
 
-In my [previous blogpost](https://bilalmkhan.github.io/toronto-bike-share-covid-bigquery-datastudio/), I used Google Data Studio to analyze [BikeShareTO ridership data](https://ckan0.cf.opendata.inter.prod-toronto.ca/tr/dataset/bike-share-toronto-ridership-data) with BigQuery as the data source. In this blogpost, I will demonstrate step-by-step some of the problems you run into when trying to load BikeShareTO ridership data directly into BigQuery from Cloud Storage, and how to solve them by carrying out the ETL process with Apache Beam using Dataflow.
+In my [previous blogpost](https://bilalmkhan.github.io/toronto-bike-share-covid-bigquery-datastudio/), I used Google Data Studio with BigQuery as the data source to analyze how the pandemic has affected Bike Share Toronto ridership. In this blogpost, I will demonstrate step-by-step some of the problems you run into when trying to load [Bike Share Toronto ridership data](https://ckan0.cf.opendata.inter.prod-toronto.ca/tr/dataset/bike-share-toronto-ridership-data) directly into BigQuery from Cloud Storage, and how to solve them by carrying out the ETL process with Apache Beam using Dataflow.
 
 ## Download data
 1) Let’s start by opening a session in Cloud Shell and downloading the 2020 Bike Share Toronto ridership data in a separate folder `'2020'` with the following commands.
