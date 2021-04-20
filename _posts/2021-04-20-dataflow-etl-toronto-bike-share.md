@@ -145,7 +145,7 @@ gs://my-bucket-name/*
 This deals with the error due to parsing NULL values. However, we will also include this transformation in our Apache Beam pipeline so that a single pipeline carries out all the necessary transformations.
 
 ## Build a Dataflow Pipeline
-13) Next, we code an Apache Beam pipeline which extracts the files, carries out the transformations and loads the data into BigQuery. The python file `etl_pipeline.py` contains the Python code for the pipeline. Three functions carry out the main transformations: `deconcat()`, `replace_nulls()`, `format_datetime_bq()`. We can upload the python file using the Cloud Shell Editor.
+13) Next, we code an Apache Beam pipeline which extracts the files, carries out the transformations and loads the data into BigQuery. The python file [`etl_pipeline.py`](https://github.com/bilalmkhan/etl-pipeline-beam/blob/main/etl_pipeline.py) contains the Python code for the pipeline. Three functions carry out the main transformations: `deconcat()`, `replace_nulls()`, `format_datetime_bq()`. We can upload the python file using the Cloud Shell Editor.
 
 ## Set up the Python environment
 14) Run the following commands in the Cloud Shell to set up the virtual environment to run our code:
@@ -159,7 +159,7 @@ pip install apache-beam[gcp]==2.24.0
 
 ## Run the pipeline
 
-15) Running the python file etl_pipeline.py creates a Dataflow job which runs the DataflowRunner. We need specify a Cloud Storage bucket location for staging and storing temporary data while the pipeline is still running, and the Cloud Storage bucket containing our CSV files.
+15) Running the python file [`etl_pipeline.py`](https://github.com/bilalmkhan/etl-pipeline-beam/blob/main/etl_pipeline.py) creates a Dataflow job which runs the DataflowRunner. We need specify a Cloud Storage bucket location for staging and storing temporary data while the pipeline is still running, and the Cloud Storage bucket containing our CSV files.
 
 ```
 python etl_pipeline.py \
