@@ -151,3 +151,9 @@ python etl_pipeline.py \
 --save_main_session
 ```
 16. When the Dataflow job is complete, we can navigate to Cloud Dataflow in the Gooogle Cloud Console and see the Job Graph and other job completion details:
+
+![Dataflow Job Graph](/images/Dataflow_Screenshot.png)
+
+17. Navigating to BigQuery verifies that the data successfully loaded in the table.
+
+![BigQuery Table](/images/BigQuery_Screenshot.png)
