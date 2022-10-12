@@ -5,7 +5,7 @@ permalink: /about-me/
 
 Hi, my name is Bilal. I am a Data Scientist and a [Google Cloud Certified Professional Data Engineer](https://googlecloudcertified.credential.net/profile/2655b7c60bfa2929c649b958843d73de46a50e6c). I live in Toronto, Ontario.
 
-Most recently, I was a Data Science Fellow at the [Insight Data Science Fellowship Program](https://insightfellows.com/data-science). Prior to moving to Canada, I worked as a Data Scientist on contract at Microsoft in Seattle. 
+Currently, I am working as a Consultant in the Data Science team at Deloitte Canada's Omnia AI practice. Prior to moving to Canada, I was a Data Science Fellow at the [Insight Data Science Fellowship Program](https://insightfellows.com/data-science) and worked as a Data Scientist at Microsoft in Seattle. 
 
 I have a PhD in economics. I have taught mathematical economics at [LUMS](https://www.lums.edu.pk/) and  probability and game theory at the [Johns Hopkins Center for Talented Youth](https://cty.jhu.edu/).
 
