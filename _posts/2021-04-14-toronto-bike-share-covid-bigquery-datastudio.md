@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How the Pandemic Has Affected Bike Share Toronto Ridership
-subtitle: An analysis of Bike Share Toronto 2019 and 2020 ridership data using BigQuery and Google Data Studio
+subtitle: An analysis of Bike Share Toronto 2019 and 2020 ridership data
 ---
 
 Bike Share Toronto ([BikeShareTO](https://bikesharetoronto.com/)) is Toronto's [bicycle-sharing system](https://en.wikipedia.org/wiki/Bicycle-sharing_system) and they recently shared their [ridership data](https://ckan0.cf.opendata.inter.prod-toronto.ca/tr/dataset/bike-share-toronto-ridership-data) for the years 2019 and 2020. As an avid BikeShareTO user, I was curious to see how the pandemic has affected the bike-sharing system's patterns of ridership.
